@@ -29,6 +29,10 @@ in a really convenient manner
         I'm a rebel!
     </head>
 
+    <!--You can also link other files to the webpage. In this case, it's the
+    JavaScript and CSS file that's in the "js" and "css" directories.-->
+    <script src="js/lesson1.js" type="text/javascript"></script>
+    <link href="css/lesson1.css" rel="stylesheet" type="text/css"/>
 
 
     <body>
@@ -48,7 +52,9 @@ in a really convenient manner
         An example of this can be seen below with the <br> tag.
         -->
 
-        <button id="btn">Click Me!</button>
+        <!--You can also add attributes to certain elements, even text!
+        In this case, if you click the button, a message will appear-->
+        <button onclick="buttonFunction()">Click Me!</button>
 
 
         <p>And this is some paragraph text!</p>
