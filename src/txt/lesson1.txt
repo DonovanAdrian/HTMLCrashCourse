@@ -1,13 +1,111 @@
 ***Introduction***
+Picture for a moment that you are a recipe maker in a densely populated world of
+professional cooks with a wealth of high-class ingredients to choose from. Whether
+you are brand new to this recipe-making or just getting a refresher, you're here
+because you want to get to know how to make some recipes! All of the files
+that we will be looking at in this set of lessons (and pretty much all modern
+programming, for that matter) can be seen as a set of recipes in which the computer
+uses to "cook" all it's "dishes". Much like how you need to read recipes in steps
+from top to bottom, the computer reads each file from top to bottom, so you should
+think about how you build your recipes accordingly.
+
+Especially with web development, you should be proficient in a handful of the
+important ways that the computer (and in extension, a web browser) interprets these
+recipes. These interpretation methods are known as programming languages, naturally,
+and there are many of them that can be used in web programming. To keep things
+simple, however, we will only look at 3 of them. These 3 programming languages,
+are CSS, HTML, and JS. These are known better as "Cascading Style Sheets", "Hyper
+Text Markup Language", and "JavaScript". There's no need to delve much into *why*
+they are called those things (Feel free to look it up on your own time)... Just
+that those are the names they were each given, and you will grow to know how they
+work if you stick around!
+
+**Before we get started**, it would be best to open these files in a web browser,
+not just from GitHub. That way, you'll be able to view all the juicy details and
+see how the webpage reacts based on the changes in code. However, if you only
+want to view the code in GitHub, feel free. If you want to open these files in a
+web browser though...
+
+(Optional)
+**Opening in a web browser** On GitHub, there should be a fancy green button with
+a downward pointing arrow (The text should say "Code"). Then select "Download ZIP".
+Once downloaded, go to your file explorer, and open the zip file. From here, you
+can view the text files and open the ".html" files to view the webpages!
+
 
 
 ***HTML***
+To start, HTML files are the backbone of a webpage, and help establish the general
+blueprint of how your webpage will look. In order to do so, however, it is important
+to tell you about the nomenclature and format that your HTML file will need to
+follow. The most basic building block of an HTML file is an "element". An element needs
+an opening tag <likeThis> and a closing tag </likeThis>, denoted by the added "/".
+Everything in-between these tags are considered to be inside that element. You may
+even notice that some elements don't necessarily require an opening or closing tag,
+which is totally fine. Another building block in an HTML file is a "comment", which
+is used <!--like this--> and can span along multiple lines of the file if need be.
 
+Now that you know about some of the basic building blocks, let's jump into the
+lesson1.html file! Make sure to come back to the text file after you're done reviewing
+the code moving forward.
 
-***JavaScript***
 
 
 ***CSS***
+CSS is the programming language that gives all the elements on your HTML file an extra
+flare!
+
+While your HTML file is loading in the browser, this code will be checked as a reference
+in case there are some special formatting instructions that you want to be used in the
+webpage. This can be just about anything, including sticking the text to the right side
+of the page, a larger text size, a certain font style, and the list goes on! Some of the
+code here can also change how certain elements act and react within the webpage. For example,
+you can "animate" or center an element on the page. However, since this is the first lesson,
+we will delve into some examples of this later. Instead, we will just show you how to comment
+in a CSS file so that way you still learn something about CSS here!
+
+Take a quick peek at the lesson1.css file and then take a break before going into the JavaScript
+section. The JavaScript portion is much larger and a bit more complicated, so take your time!
+
+
+
+***JavaScript***
+JavaScript is the programming language that brings all the elements on your HTML
+file to life!
+
+After your HTML file is loaded in the browser, JavaScript can handle the rest of the
+heavy lifting for logic and data processing. JavaScript's influence spans from simple
+things (like checking if an email address is valid) to more complicated tasks (like
+performing calculus operations). Of course, there are cases where HTML can handle
+certain tasks on its own (For example, forms), but we will not address these
+possibilities in this crash course.
+
+As for nomenclature in JavaScript, we will largely be working with "variables". In
+order to use variables, you need to first "declare" them. This is seen by using "let"
+or "var", followed by the name of the variable, which can be anything you'd like. Of
+course, it's good practice to keep the variable names short and concise, describing
+what you want to use it for. You can also do "somethingLikeThis", noting that the first
+letter is lower case, and each following word is capitalized so it is easy to read.
+
+Another building block that we work with in JavaScript is a "function". A function is
+our mode of travel for getting work done and looks like "function exampleFunction() {}".
+There are a couple things to note here in the structure. First of all, (just like with
+variables) the "exampleFunction" can be anything you'd like, within the same good
+practices that I noted. Second, anything in between the parenthesis are variables that
+you wish to use that came from another function (we will address this later). As for
+anything in between the curly-braces, this is where you will find all the logic for
+the function!
+
+Whew! Now that you are familiar with some of the basic building blocks of JS, let's jump
+into the lesson1.js file! As a reminder, make sure to come back to the text file after
+you're done reviewing the code!
+
 
 
 ***Conclusion***
+Congrats!! Now that you've gotten the chance to be exposed to some very simple examples of
+each of these programming languages, let's move on to lesson 2 where we will begin
+to put some of this new material to "good use". Rather, I'll show you some more
+examples of how to use them, as well as introduce a couple more variable types.
+
+ONWARD!!!

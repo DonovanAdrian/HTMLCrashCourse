@@ -16,7 +16,8 @@ But first! A quick tutorial!
 
 ## ***How On EARTH Do I Interpret All This???***
 ...You may be asking me. To be honest, I still have 
-trouble from time to time, don't get yourself down. 
+trouble from time to time, don't get yourself down.
+THIS IS A LOT OF READING MATERIAL AFTER ALL!! 
 Depending on the layout of GitHub, you should see a 
 list of all the directories (folders) and files included 
 in this GitHub Repository. To continue moving forward in 
