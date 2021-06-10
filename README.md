@@ -28,25 +28,25 @@ to try and give a relative summary of what to expect in each
 section.
 
 ## ***The Lesson Plan***
-- /src/txt/Lesson1.txt
+- /src/txt/Lesson1.txt - ***COMPLETE***
     - The basics in HTML, Java, and CSS
         - Content:
             - lesson1.html
             - lesson1.js
             - lesson1.css
-- /src/txt/Lesson2.txt
+- /src/txt/Lesson2.txt - ***IN PROGRESS***
     - Elements, Functions, and Selectors
         - Content:
             - lesson2.html
             - lesson2.js
             - lesson2.css
-- /src/txt/Lesson3.txt
+- /src/txt/Lesson3.txt - ***IN PROGRESS***
     - Let's Kick Things Up A Notch...
         - Content:
             - lesson3.html
             - lesson3.js
             - lesson3.css
-- /src/txt/Lesson4.txt
+- /src/txt/Lesson4.txt - ***IN PROGRESS***
     - A Data Dump, And Some Parting Words
         - Content:
             - lesson4.txt
