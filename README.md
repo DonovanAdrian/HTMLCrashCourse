@@ -28,7 +28,7 @@ to try and give a relative summary of what to expect in each
 section.
 
 ## ***The Lesson Plan***
-- /src/txt/Lesson1.txt - ***COMPLETE***
+- /src/txt/Lesson1.txt
     - The basics in HTML, Java, and CSS
         - Content:
             - lesson1.html
