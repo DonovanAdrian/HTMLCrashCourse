@@ -1,13 +1,60 @@
 ***Introduction***
+Now that you've been acquainted with the bare bones and an example perspective for
+programming, let's get on with the next lesson! We're going to look at a couple new
+things now... In particular, how the different languages communicate with each other!
+You may have noticed in the last lesson how the HTML file "links" to the CSS and JS
+files, as seen in the next two lines pulled directly from the HTML file.
+
+<script src="js/lesson1.js" type="text/javascript"></script>
+<link href="css/lesson1.css" rel="stylesheet" type="text/css"/>
+
+But of course, what good are these links if you don't do anything with them? There
+are MANY wonderful ways that all the languages communicate with each other to build
+the user experience. Let's continue on to the HTML file to see what's in store!
+
 
 
 ***HTML***
+Wow! What a cool animation (if you opened it in a browser)! Otherwise, it's just
+simple text in this file, but it's really so much more. While HTML itself can
+be powerful and rich in functionality, the JavaScript and CSS that you implement
+can really start to bring the webpage to life! In this particular case, the HTML
+truly is the backbone of the webpage, where the idea of a recipe made by a chef
+really starts to shine. Feel free to click some of the buttons that are in this
+page to see how they react. Otherwise, take a look at the HTML file itself to see
+what's really going on behind the scenes!
+
 
 
 ***JavaScript***
+Well, well, well... We meet some of my dreaded nemesis's... null values! Rather,
+there are two that are here, but one is hidden... One is the "nullExample", which
+is initialized to null, of course. The second is "btn", which is technically
+undefined, until you give it purpose! If you were to try to use this variable before
+initializing it, things could break, which obviously is no good.
+
+From there, we will dive a little deeper into some of the ways that you can use JS
+to give the webpage some functionality. Be sure to take a look at the console as
+you play around, too!
+
 
 
 ***CSS***
+And now we finally get our first look at some styles! Here you can see some examples
+of how to change the background color, text color, and give some of the HTML elements
+some room to breathe! We even have a simple animation of some text fading into view.
+We'll be sure to revisit some animations in the next two lessons as well, don't worry!
+
+Of course, feel free to play around with some of the numbers and letters that appear in
+this file. After you edit one, refresh the page to see your changes take effect!
+Additionally, some browsers (Chrome, for example) will allow you to completely change
+how the webpage looks in real time.
+
 
 
 ***Conclusion***
+Now that we've gotten to really dip our toes into some more uses for these languages,
+I'm gonna really start to show you some more "practical" uses for a webpage. In
+particular, data processing! Can you imagine all the work that your browser is doing
+in the background to give you a quick look at the world of the internet? Well, I can
+show you a few examples... In the next lesson!
