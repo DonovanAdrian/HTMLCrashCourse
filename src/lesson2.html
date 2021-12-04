@@ -8,7 +8,36 @@ Now that you know the basics, I'm gonna jump right into the file!
     <meta charset="UTF-8">
     <title>Lesson 2</title>
 </head>
-<body>
 
+<script src="js/lesson2.js" type="text/javascript"></script>
+<link href="css/lesson2.css" rel="stylesheet" type="text/css"/>
+
+<body>
+<!--
+And now we see something called a "div" tag! This is something that we can use to designate specific sections
+in our HTML file. Depending on how we want our webpage laid out, we can have as many or as few div tags as we
+want! In this case, we're just using one div tag to envelope all of our page content and center it.
+
+Take particular note in the "class" attribute... You'll see more examples of this within the file. This is what
+links us to the CSS file, where we have a "webContent" field where we specify centered text and such!
+-->
+<div class="webContent">
+  <p>Of course, you'll notice here that we have two different buttons that you can click! Feel free to
+  click on either one to get a feel for how they act and react based upon the simple code that is in the
+  JavaScript file.</p>
+  <!--
+  Notice that you can designate attributes to each element. This one was given a specific "ID" that can be
+  referred to within other files on the webpage. In this case, the JavaScript file.
+  -->
+  <button id="btn">Click Me!</button>
+  <br><br>
+  <!--
+  You can also designate specific functions to elements which trigger functions in the JavaScript file.
+  Here we see that clicking on this fancy "button" (of course, it's a span element, but you get the idea!)
+  will trigger the "exampleFunction3". You can also use the parenthesis here to pass specific text, numbers,
+  etc into the function. For example, exampleFunction3("Hello World").
+  -->
+  <span class="webButton" onclick="exampleFunction3()">Click Me Too!</span>
+</div>
 </body>
 </html>
