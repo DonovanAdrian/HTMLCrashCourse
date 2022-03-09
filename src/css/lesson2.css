@@ -1,0 +1,57 @@
+/*
+Wow! We actually added some stuff in here this time!
+
+Below we can see a handful of different things... Firstly, we see the ".webContent" which can be used for any
+of the elements that it gets applied to in the lesson2.html file. We could use it for the "p" element, "button"
+element, "span" element, and so on! We would just have to assign it.
+
+Secondly, we also have "span.webButton". This specifically assigns the "span" element with the attributes that
+we define. To take it a step further, we also have "span.webButton:hover" which will add another set of
+attributes if we were to hover our mouse cursor over the button. Neat, huh?
+
+You can also assign styles to elements "programmatically", which is a way of saying that you can assign
+styles to elements via your programming. In the case of a website, usually JavaScript, but you can use
+just about any scripting language to do so.
+ */
+
+.webContent {
+  animation: fade-in 5s;
+  font-family: AppleGothic;
+  color: crimson;
+  background-color: aliceblue;
+}
+
+/*
+Some of the above attributes are straightforward, like animation, font-family, (text) color, and background-color!
+However we can see that the below span element is a bit more complicated. This is because it takes a bit more
+definition to tell the web browser exactly what you would like displayed on the page. You'd like it centered,
+so "left: 50%" will do the trick... "bottom: 25px" says to move the span element 25 pixels UP from the bottom
+of the page... Well, feel free to remove and add each attribute to see what it does. Don't forget to refresh
+the page to see the change, not all of them will be very obvious!
+ */
+
+span.webButton {
+  position: fixed;
+  font-family: Verdana;
+  background: #ff8e8e;
+  color: #FFF;
+  border-radius: 0;
+  padding: 5px;
+  font-size: 13px;
+  bottom: 25px;
+  left: 50%;
+}
+
+span.webButton:hover {
+  background: firebrick;
+  color: #FFF;
+}
+
+/*
+And finally we see the simple 4 lines it takes to get an animation to work! That's all we need to fade-in!
+ */
+
+@keyframes fade-in {
+  0% { opacity: 0 }
+  100% { opacity: 1 }
+}
