@@ -44,14 +44,12 @@ function exampleFunction1 () {
     you decide to delve into online coding forums. This tactic to write calculations in a much simpler
     manner not only is faster to type, but also takes up less space in the completed algorithm or program.
      */
-
-    btn.innerHTML = "Button"; //And we'll change this back to the original text to keep things consistent.
   }
 }
 
 function exampleFunction2 (outputText) {
   if (!boolExample1) {
-      boolExample1 = true;
+    boolExample1 = true;
   }
 
   /*
@@ -63,7 +61,7 @@ function exampleFunction2 (outputText) {
   If you wanted to output multiple console outputs, then you'd need to use brackets ;)
    */
   if (boolExample1)
-      console.log(outputText);
+    console.log(outputText);
 
   return boolExample1;
 }
@@ -89,6 +87,8 @@ function exampleFunction3 () {
     //Notice how I used the \ character in the above console output? This is called an "escape" character.
     //Normally, a set of quotations will be used to denote the beginning and the end of string, but what
     //if you wanted to output your favorite Shakespeare quote within quotation marks? Well, that's how!
+    
+    btn.innerHTML = "Don't forget to check out the console log!";
   }
 
   //And of course, we'll finally "push" something into the array! This is how you add something to an
