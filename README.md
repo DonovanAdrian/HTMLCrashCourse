@@ -34,7 +34,7 @@ section.
             - lesson1.html
             - lesson1.js
             - lesson1.css
-- /src/txt/Lesson2.txt - ***IN PROGRESS***
+- /src/txt/Lesson2.txt
     - Elements, Functions, and Selectors
         - Content:
             - lesson2.html
