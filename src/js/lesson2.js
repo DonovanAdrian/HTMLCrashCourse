@@ -1,17 +1,21 @@
 /*
-In this particular JavaScript lesson, we will be learning about a whole
-slew of "new" things. For example, we'll introduce a couple more data types,
-how to use them, and also build on some of our old topics from lesson 1.
+In this particular JavaScript lesson, I will be building off of the foundation
+that was provided in lesson 1. For example, we'll introduce a couple more data types,
+how to use them, and expand on the variety of things that functions can be used for.
+Speaking of functions! I'd like to build more on some of the "foundations"
+that were outlined in the first lesson. I'd especially like to drive home a couple
+specific examples of how functions can be used for slightly more complex
+calculations and expressions.
  */
 
-let btn;
+let btn; //Not all variables need to be initialized here. We'll need to initialize it before we use it though!
 let textExample1 = "Hello World!";
-let textExample2 = 20; //Hmmm... This is weird... We'll look at this later ;)
+let textExample2 = 20; //Hmmm... A "text" example? But that's a number!
 let intExample1 = 10;
 let boolExample1 = false;
 let nullExample1 = null;
 let arrayExample1 = [];
-//Above are our new data types, null and arrays!
+//Above are our two new data types, null and arrays!
 
 
 
@@ -73,21 +77,24 @@ function exampleFunction3 () {
   expression as well as a "not" ! expression. These can quickly become wildly complex, but can be
   used to calculate an incredibly specific use case!
 
-  You can also utilize parenthesis to force certain expressions to be evaluated first, regardless of
-  left-to-right order. Of course, in the below example, the first expression will always evaluate to
-  "true", so you'll never see any of the subsequent expression's outputs... Unless you update an
-  array like the last line in this function!
+  You can also utilize parenthesis to "force" certain expressions to be evaluated first, regardless of
+  left-to-right order (Think PEMDAS). Of course, in the below example, the first expression will always evaluate to
+  "true", so you'll never see any of the subsequent expression's outputs... Feel free to play with this code
+  to see if you can get anything else to output!
    */
   if (nullExample1 == null && arrayExample1[0] == undefined) {
     alert("Some of the variables in the JavaScript file are null!");
   } else if ((!boolExample1 || nullExample1 != null) && textExample2 == 20) {
     console.log("Hmmmm, this expression is a bit more complex!");
+    textExample2 = "Now this is text!";
+    //Check it out! Even though it was originally 20, now it can be assigned some text!
+    //JavaScript variables are very dynamic, so keep this blessing and curse in mind.
   } else {
     console.log("And this is just a catch-all in case the above two expressions are \"false\"");
     //Notice how I used the \ character in the above console output? This is called an "escape" character.
     //Normally, a set of quotations will be used to denote the beginning and the end of string, but what
     //if you wanted to output your favorite Shakespeare quote within quotation marks? Well, that's how!
-    
+
     btn.innerHTML = "Don't forget to check out the console log!";
   }
 
