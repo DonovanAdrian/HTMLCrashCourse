@@ -1,12 +1,14 @@
 /*
-Wow! We actually added some stuff in here this time!
+Wow! We actually added some stuff in here this time! Be prepared to be amazed by elements and selectors!
 
 Below we can see a handful of different things... Firstly, we see the ".webContent" which can be used for any
 of the elements that it gets applied to in the lesson2.html file. We could use it for the "p" element, "button"
-element, "span" element, and so on! We would just have to assign it.
+element, "span" element, and so on! We would just have to... select it! This is where the term "selector" comes
+in handy. When we want to assign a specific style to an element, we use a selector.
 
-Secondly, we also have "span.webButton". This specifically assigns the "span" element with the attributes that
-we define. To take it a step further, we also have "span.webButton:hover" which will add another set of
+Secondly, we have "span.webButton", where ".webButton" is the selector that selects the span element. Now that
+the span element is selected, we assign it all of the fancy style data between the {curly brackets}.
+To take it a step further, we also have "span.webButton:hover" which will add another set of
 attributes if we were to hover our mouse cursor over the button. Neat, huh?
 
 You can also assign styles to elements "programmatically", which is a way of saying that you can assign
