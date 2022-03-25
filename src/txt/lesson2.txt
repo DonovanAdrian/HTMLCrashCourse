@@ -16,13 +16,15 @@ the user experience. Let's continue on to the HTML file to see what's in store!
 
 ***HTML***
 Wow! What a cool animation (if you opened it in a browser)! Otherwise, it's just
-simple text in this file, but it's really so much more. While HTML itself can
-be powerful and rich in functionality, the JavaScript and CSS that you implement
-can really start to bring the webpage to life! In this particular case, the HTML
-truly is the backbone of the webpage, where the idea of a recipe made by a chef
-really starts to shine. Feel free to click some of the buttons that are in this
-page to see how they react. Otherwise, take a look at the HTML file itself to see
-what's really going on behind the scenes!
+simple text in this file, but it's really so much more. Each of the elements that
+you can see in the HTML file each hold a very specific purpose in building the
+"scaffolding" of the page... But while HTML itself can be powerful and rich in
+functionality, the JavaScript and CSS that you implement can really start to
+bring the webpage to life! In this particular case, the HTML truly is the backbone
+of the webpage, where the idea of a recipe made by a chef really starts to shine.
+Feel free to click the buttons that are in this page to see how they react.
+Otherwise, take a look at the HTML file itself to see what's really going on
+behind the scenes!
 
 
 
@@ -33,19 +35,21 @@ is initialized to null, of course. The second is "btn", which is technically
 undefined, until you give it purpose! If you were to try to use this variable before
 initializing it, things could break, which obviously is no good.
 
-From there, we will dive a little deeper into some of the ways that you can use JS
-to give the webpage some functionality. Be sure to take a look at the console as
-you play around, too!
+From there, we will dive a little deeper into some ways that you can use JS to give
+the webpage some functionality, especially relating to functions. While they were very
+simple in lesson 1, we will be giving functions much more purpose this time around. Be
+sure to take a look at the console as you play around, too!
 
 
 
 ***CSS***
-And now we finally get our first look at some styles! Here you can see some examples
-of how to change the background color, text color, and give some of the HTML elements
-some room to breathe! We even have a simple animation of some text fading into view.
-We'll be sure to revisit some animations in the next two lessons as well, don't worry!
+And now we finally get our first look at some styles and selectors! With the help
+of selectors, you can see some examples of how to change the background color,
+text color, and give the HTML elements some room to breathe. We even have a simple
+animation of some text fading into view. We'll be sure to revisit some animations
+in the next two lessons as well, don't worry!
 
-Of course, feel free to play around with some of the numbers and letters that appear in
+Of course, feel free to play around with the numbers and letters that appear in
 this file. After you edit one, refresh the page to see your changes take effect!
 Additionally, some browsers (Chrome, for example) will allow you to completely change
 how the webpage looks in real time.
